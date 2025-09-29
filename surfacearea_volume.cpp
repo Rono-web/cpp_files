@@ -19,7 +19,7 @@ class Cylinder{
 
 // member functions		
 		float calcS_area(){
-			return (2*3.14 *r * r) + (2 * 3.14 * r * h);
+			return (2 * 3.14 *r * r) + (2 * 3.14 * r * h);
 		}
 		
 		float calcVol(){

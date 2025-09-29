@@ -12,16 +12,17 @@ using namespace std;
 class addition{
 	
 	public:
-		
+// member variables		
 		int a, b, c;
 		
+//member functions		
 		int calcproduct(){
 			return a* b * c;
 		}
 };
 
 int main(){
-	
+//	
 	addition prod;
 	int product;
 	
