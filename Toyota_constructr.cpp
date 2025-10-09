@@ -9,13 +9,13 @@ using namespace std;
 
 class Car{
 
-public:
+private:
 	string brand;
 	string model;
 	float price;
 	int mileage;
-
-Car(string a, string b, float c, int d){
+public:
+display.Car(string a, string b, float c, int d){
 	brand = a;
 	model = b;
 	price = c;
@@ -30,7 +30,7 @@ Car(string a, string b, float c, int d){
 
 int main(){
 
-Car car1("Toyota", "Corolla", 20000, 5000);
+Car::car1("Toyota", "Corolla", 20000, 5000);
  
 cout<<car1.brand<<" "<<car1.model<<" "<<car1.price<<" "<<car1.mileage<<"\n";
 
