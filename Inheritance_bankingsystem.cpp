@@ -1,3 +1,9 @@
+/*
+Description: A program that applies inheritance to a banking system .
+Name: Timothy Rono 
+Reg no: BCS-05-0431/2023
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
