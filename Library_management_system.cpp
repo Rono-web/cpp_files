@@ -1,4 +1,5 @@
 /*
+CAT TWO
 Description: A program for a libaray management system that uses inheritance.
 Name: Timothy Rono
 Reg no: BCS-05-0431/2023 
@@ -65,7 +66,7 @@ int main(){
 	PremiumMember userdetails("Timothy Rono", 12345, 5, 2000);
 	
 	cout<<"Member's name: "<<userdetails.getName()<<endl;
-	cout<<"Memmber's ID: " <<userdetails.getMemberID()<<endl;
+	cout<<"Member's ID: " <<userdetails.getMemberID()<<endl;
 	cout<<"You Borrowed: " <<userdetails.getBooksBorrowed()<<" Books"<<endl;
 	cout<<"Membership Fee: $"<<userdetails.getMembershipFee()<<endl;
 	return 0;
